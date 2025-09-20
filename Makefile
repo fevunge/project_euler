@@ -1,6 +1,7 @@
 VALUE=""
-SOLUTIONS := multiples_of_3_or_5/solution \
-	even_fibonacci_numbers/solution
+SOLUTIONS := 1-multiples_of_3_or_5/solution \
+	2-even_fibonacci_numbers/solution \
+	3-largest_prime_factor/solution
 
 all: $(SOLUTIONS)
 
@@ -9,10 +10,13 @@ $(SOLUTIONS): $(SOLUTIONS).c
 	@cc $@.c -o $@
 
 1:
-	@./multiples_of_3_or_5/solution $(VALUE)
+	@./1-multiples_of_3_or_5/solution $(VALUE)
 
 2:
-	@./even_fibonacci_numbers/solution $(VALUE)
+	@./2-even_fibonacci_numbers/solution $(VALUE)
+
+3:
+	@./3-largest_prime_factor/solution
 
 clean:
 	@rm $(SOLUTIONS)
