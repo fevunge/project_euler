@@ -1,4 +1,15 @@
-CC=cc 
+VALUE="0"
+SOLUTIONS := multiples_of_3_or_5/solution
+all: $(SOLUTIONS)
 
-SRC=multiples_of_3_or_4/solution.c
-all: 
+$(SOLUTIONS):
+	@echo "Compilando $@..."
+	@cc $@.c -o $@
+
+
+1:
+	@./multiples_of_3_or_5/solution $(VALUE)
+
+clean:
+	@rm $(SOLUTIONS)
+	@echo "Executáveis removidos."
