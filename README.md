@@ -23,8 +23,15 @@ Project Euler is a series of challenging mathematical/computer programming probl
 If you want to test the challenges, you can clone and compile one by one if you have the c/c++ compilers
 **Steps**
 
-- Clone the repo: <code>git clone https://github.com/fevunge/project_euler.git</code></li>
-- Compile the project with makefile: <code>make</code></li>
+- Clone the repo:
+    ```bash
+        git clone https://github.com/fevunge/project_euler.git
+    ```
+- Enter and compile the project:
+    ```bash
+        cd project-euler
+        make
+    ```
   
 ## Usage
 ---
