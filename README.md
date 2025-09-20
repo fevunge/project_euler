@@ -24,18 +24,31 @@ If you want to test the challenges, you can clone and compile one by one if you 
 **Steps**
 
 - Clone the repo:
-    ```bash
+
+    ```
         git clone https://github.com/fevunge/project_euler.git
     ```
 - Enter and compile the project:
-    ```bash
-        cd project-euler
+  
+    ```
+        cd project_euler
         make
     ```
   
 ## Usage
 ---
+After compiling you can perform each exercise in this way
 
+```bash
+make 4
+```
+If the solution needs the value to resolve, you need to pass that value like this
+
+```bash
+make 1 VALUE=100
+```
+
+*THE NUMBER SPECIFIES THE SOLUTION NUMBER*
 
 ## Sr. Euler
 ![Sr. Euler](https://projecteuler.net/images/clipart/euler_portrait.png)
