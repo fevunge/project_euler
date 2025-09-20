@@ -17,7 +17,8 @@ Project Euler is a series of challenging mathematical/computer programming probl
 ## Setup
 ---
 If you want to test the challenges, you can clone and compile one by one if you have the c/c++ compilers
-**Steps**
+
+## Steps
 
 - Clone the repo:
 
